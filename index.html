@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cape Peninsula Map</title>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.css" rel="stylesheet">
+  <style>
+    body { margin: 0; padding: 0; }
+    #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <script>
+    mapboxgl.accessToken = 'MAPBOX_TOKEN_REMOVED';
+
+    const map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/valkenmadness/cmlwtt4pu000901sdfihve44x',
+      center: [18.4241, -33.9249],
+      zoom: 11
+    });
+
+    map.on('load', () => {
+
+      // Declare the peaks tileset as a source
+      map.addSource('peaks-source', {
+        type: 'vector',
+        url: 'mapbox://valkenmadness.48ecknjn'
+      });
+
+      // Load T1 icon
+      map.loadImage('T1 - Generic@2x.png', (error, image) => {
+        if (error) throw error;
+        map.addImage('peak-t1', image, { pixelRatio: 2 });
+
+        map.addLayer({
+          id: 'peaks-t1',
+          type: 'symbol',
+          source: 'peaks-source',
+          'source-layer': 'Peaks-cc2cso',
+          minzoom: 11,
+          maxzoom: 14,
+          layout: {
+            'icon-image': 'peak-t1',
+            'icon-size': 0.25,
+            'icon-allow-overlap': false
+          }
+        });
+      });
+
+      // Load T2 icon
+      map.loadImage('T2 - Generic@2x.png', (error, image) => {
+        if (error) throw error;
+        map.addImage('peak-t2', image, { pixelRatio: 2 });
+
+        map.addLayer({
+  id: 'peaks-t2',
+  type: 'symbol',
+  source: 'peaks-source',
+  'source-layer': 'Peaks-cc2cso',
+  minzoom: 14,
+  maxzoom: 22,
+  layout: {
+    'icon-image': 'peak-t2',
+    'icon-size': 0.18,
+    'icon-allow-overlap': false,
+    'text-field': ['get', 'name'],
+    'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
+    'text-size': 11,
+    'text-offset': [0, 0.5],
+    'text-anchor': 'top',
+    'text-allow-overlap': false
+  },
+  paint: {
+    'text-color': '#1A1A1A',
+    'text-halo-color': '#F5ECD7',
+    'text-halo-width': 3
+  }
+});
+      });
+
+    });
+  </script>
+</body>
+</html>
