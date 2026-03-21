@@ -6,14 +6,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -33.9628,
-          18.4041
+          18.4041,
+          -33.9628
         ]
       },
       "properties": {
         "name": "Table Mountain (Maclear's Beacon)",
         "slug": "table-mountain-maclears-beacon",
-        "elevation": 1086,
+        "elevation": 1086.0,
         "tier": 1,
         "region": "Northern Peninsula",
         "summited": false,
@@ -25,14 +25,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -33.9543,
-          18.4405
+          18.4405,
+          -33.9543
         ]
       },
       "properties": {
         "name": "Devil's Peak",
         "slug": "devils-peak",
-        "elevation": 1000,
+        "elevation": 1000.0,
         "tier": 1,
         "region": "Northern Peninsula",
         "summited": false,
@@ -44,14 +44,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -33.978,
-          18.398
+          18.398,
+          -33.978
         ]
       },
       "properties": {
         "name": "Fountain Peak",
         "slug": "fountain-peak",
-        "elevation": 1051,
+        "elevation": 1051.0,
         "tier": 2,
         "region": "Northern Peninsula",
         "summited": false,
@@ -63,14 +63,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -33.98,
-          18.405
+          18.405,
+          -33.98
         ]
       },
       "properties": {
         "name": "Fernwood Peak",
         "slug": "fernwood-peak",
-        "elevation": 1003,
+        "elevation": 1003.0,
         "tier": 2,
         "region": "Northern Peninsula",
         "summited": false,
@@ -82,14 +82,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -33.985,
-          18.41
+          18.41,
+          -33.985
         ]
       },
       "properties": {
         "name": "Saint Michael Peak",
         "slug": "saint-michael-peak",
-        "elevation": 917,
+        "elevation": 917.0,
         "tier": 2,
         "region": "Northern Peninsula",
         "summited": false,
@@ -101,14 +101,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.01,
-          18.4
+          18.4,
+          -34.01
         ]
       },
       "properties": {
         "name": "Klassenkop",
         "slug": "klassenkop",
-        "elevation": 902,
+        "elevation": 902.0,
         "tier": 2,
         "region": "Northern Peninsula",
         "summited": false,
@@ -120,14 +120,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -33.99,
-          18.405
+          18.405,
+          -33.99
         ]
       },
       "properties": {
         "name": "Junction Peak",
         "slug": "junction-peak",
-        "elevation": 919,
+        "elevation": 919.0,
         "tier": 2,
         "region": "Northern Peninsula",
         "summited": false,
@@ -139,14 +139,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.005,
-          18.405
+          18.405,
+          -34.005
         ]
       },
       "properties": {
         "name": "Reserve Peak",
         "slug": "reserve-peak",
-        "elevation": 844,
+        "elevation": 844.0,
         "tier": 2,
         "region": "Northern Peninsula",
         "summited": false,
@@ -158,14 +158,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -33.962,
-          18.42
+          18.42,
+          -33.962
         ]
       },
       "properties": {
         "name": "Minor Peak",
         "slug": "minor-peak",
-        "elevation": 856,
+        "elevation": 856.0,
         "tier": 2,
         "region": "Northern Peninsula",
         "summited": false,
@@ -177,14 +177,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -33.9673,
-          18.4029
+          18.4029,
+          -33.9673
         ]
       },
       "properties": {
         "name": "Blinkwater Peak",
         "slug": "blinkwater-peak",
-        "elevation": 989,
+        "elevation": 989.0,
         "tier": 2,
         "region": "Northern Peninsula",
         "summited": false,
@@ -196,14 +196,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -33.9353,
-          18.3893
+          18.3893,
+          -33.9353
         ]
       },
       "properties": {
         "name": "Lion's Head (Leeukop)",
         "slug": "lions-head-leeukop",
-        "elevation": 669,
+        "elevation": 669.0,
         "tier": 1,
         "region": "Northern Peninsula",
         "summited": false,
@@ -215,14 +215,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -33.9172,
-          18.4042
+          18.4042,
+          -33.9172
         ]
       },
       "properties": {
         "name": "Signal Hill",
         "slug": "signal-hill",
-        "elevation": 340,
+        "elevation": 340.0,
         "tier": 2,
         "region": "Northern Peninsula",
         "summited": false,
@@ -234,14 +234,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34,
-          18.395
+          18.395,
+          -34.0
         ]
       },
       "properties": {
         "name": "Cleft Peak",
         "slug": "cleft-peak",
-        "elevation": 833,
+        "elevation": 833.0,
         "tier": 2,
         "region": "Northern Peninsula",
         "summited": false,
@@ -253,14 +253,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.01,
-          18.398
+          18.398,
+          -34.01
         ]
       },
       "properties": {
         "name": "Grootkop",
         "slug": "grootkop",
-        "elevation": 857,
+        "elevation": 857.0,
         "tier": 2,
         "region": "Northern Peninsula",
         "summited": false,
@@ -272,14 +272,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -33.99,
-          18.395
+          18.395,
+          -33.99
         ]
       },
       "properties": {
         "name": "Belle Ombre",
         "slug": "belle-ombre",
-        "elevation": 725,
+        "elevation": 725.0,
         "tier": 2,
         "region": "Northern Peninsula",
         "summited": false,
@@ -291,14 +291,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.02,
-          18.398
+          18.398,
+          -34.02
         ]
       },
       "properties": {
         "name": "Klaassenskop",
         "slug": "klaassenskop",
-        "elevation": 742,
+        "elevation": 742.0,
         "tier": 2,
         "region": "Northern Peninsula",
         "summited": false,
@@ -310,14 +310,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.0163,
-          18.3443
+          18.3443,
+          -34.0163
         ]
       },
       "properties": {
         "name": "Little Lions Head (Klein Leeukop)",
         "slug": "little-lions-head-klein-leeukop",
-        "elevation": 436,
+        "elevation": 436.0,
         "tier": 3,
         "region": "Northern Peninsula",
         "summited": false,
@@ -329,14 +329,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.0597,
-          18.3381
+          18.3381,
+          -34.0597
         ]
       },
       "properties": {
         "name": "Sentinel (Hangberg)",
         "slug": "sentinel-hangberg",
-        "elevation": 331,
+        "elevation": 331.0,
         "tier": 3,
         "region": "Northern Peninsula",
         "summited": false,
@@ -348,14 +348,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.05,
-          18.32
+          18.32,
+          -34.05
         ]
       },
       "properties": {
         "name": "Karbonkelberg",
         "slug": "karbonkelberg",
-        "elevation": 653,
+        "elevation": 653.0,
         "tier": 2,
         "region": "12 Apostles / Atlantic",
         "summited": false,
@@ -367,14 +367,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.045,
-          18.33
+          18.33,
+          -34.045
         ]
       },
       "properties": {
         "name": "Kapteinspiek",
         "slug": "kapteinspiek",
-        "elevation": 414,
+        "elevation": 414.0,
         "tier": 3,
         "region": "12 Apostles / Atlantic",
         "summited": false,
@@ -386,14 +386,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.08,
-          18.35
+          18.35,
+          -34.08
         ]
       },
       "properties": {
         "name": "Judas Peak (758m)",
         "slug": "judas-peak-758",
-        "elevation": 758,
+        "elevation": 758.0,
         "tier": 2,
         "region": "12 Apostles / Atlantic",
         "summited": false,
@@ -405,14 +405,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.06,
-          18.34
+          18.34,
+          -34.06
         ]
       },
       "properties": {
         "name": "Cave Peak",
         "slug": "cave-peak",
-        "elevation": 445,
+        "elevation": 445.0,
         "tier": 3,
         "region": "12 Apostles / Atlantic",
         "summited": false,
@@ -424,14 +424,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.07,
-          18.345
+          18.345,
+          -34.07
         ]
       },
       "properties": {
         "name": "Corridor Buttress (St. Paul)",
         "slug": "corridor-buttress-st-paul",
-        "elevation": 750,
+        "elevation": 750.0,
         "tier": 2,
         "region": "12 Apostles / Atlantic",
         "summited": false,
@@ -443,14 +443,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.065,
-          18.342
+          18.342,
+          -34.065
         ]
       },
       "properties": {
         "name": "Dassiekop",
         "slug": "dassiekop",
-        "elevation": 640,
+        "elevation": 640.0,
         "tier": 3,
         "region": "12 Apostles / Atlantic",
         "summited": false,
@@ -462,14 +462,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.06,
-          18.39
+          18.39,
+          -34.06
         ]
       },
       "properties": {
         "name": "Constantiaberg",
         "slug": "constantiaberg",
-        "elevation": 900,
+        "elevation": 900.0,
         "tier": 1,
         "region": "Central Peninsula",
         "summited": false,
@@ -481,14 +481,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.08,
-          18.36
+          18.36,
+          -34.08
         ]
       },
       "properties": {
         "name": "Chapman's Peak",
         "slug": "chapmans-peak",
-        "elevation": 592,
+        "elevation": 592.0,
         "tier": 1,
         "region": "Central Peninsula",
         "summited": false,
@@ -500,14 +500,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.09,
-          18.36
+          18.36,
+          -34.09
         ]
       },
       "properties": {
         "name": "Lower Chapman's Peak",
         "slug": "lower-chapmans-peak",
-        "elevation": 500,
+        "elevation": 500.0,
         "tier": 3,
         "region": "Central Peninsula",
         "summited": false,
@@ -519,14 +519,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.105,
-          18.375
+          18.375,
+          -34.105
         ]
       },
       "properties": {
         "name": "Noordhoek Peak (Noordhoekpiek)",
         "slug": "noordhoek-peak-noordhoekpiek",
-        "elevation": 764,
+        "elevation": 764.0,
         "tier": 1,
         "region": "Central Peninsula",
         "summited": false,
@@ -538,14 +538,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.11,
-          18.38
+          18.38,
+          -34.11
         ]
       },
       "properties": {
         "name": "Noordhoek Lower",
         "slug": "noordhoek-lower",
-        "elevation": 494,
+        "elevation": 494.0,
         "tier": 3,
         "region": "Central Peninsula",
         "summited": false,
@@ -557,14 +557,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.115,
-          18.385
+          18.385,
+          -34.115
         ]
       },
       "properties": {
         "name": "Klaasjagersberg",
         "slug": "klaasjagersberg",
-        "elevation": 560,
+        "elevation": 560.0,
         "tier": 2,
         "region": "Central Peninsula",
         "summited": false,
@@ -576,14 +576,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.12,
-          18.39
+          18.39,
+          -34.12
         ]
       },
       "properties": {
         "name": "Klein-Tuinkop",
         "slug": "klein-tuinkop",
-        "elevation": 492,
+        "elevation": 492.0,
         "tier": 3,
         "region": "Central Peninsula",
         "summited": false,
@@ -595,14 +595,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.13,
-          18.4
+          18.4,
+          -34.13
         ]
       },
       "properties": {
         "name": "Dassenberg",
         "slug": "dassenberg",
-        "elevation": 163,
+        "elevation": 163.0,
         "tier": 3,
         "region": "Central Peninsula",
         "summited": false,
@@ -614,14 +614,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.055,
-          18.395
+          18.395,
+          -34.055
         ]
       },
       "properties": {
         "name": "Eagles Nest",
         "slug": "eagles-nest",
-        "elevation": 417,
+        "elevation": 417.0,
         "tier": 3,
         "region": "Central Peninsula",
         "summited": false,
@@ -633,14 +633,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.1,
-          18.39
+          18.39,
+          -34.1
         ]
       },
       "properties": {
         "name": "Blokhuiskop",
         "slug": "blokhuiskop",
-        "elevation": 417,
+        "elevation": 417.0,
         "tier": 3,
         "region": "Central Peninsula",
         "summited": false,
@@ -652,14 +652,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.135,
-          18.4
+          18.4,
+          -34.135
         ]
       },
       "properties": {
         "name": "Maiden Peak",
         "slug": "maiden-peak",
-        "elevation": 372,
+        "elevation": 372.0,
         "tier": 3,
         "region": "Central Peninsula",
         "summited": false,
@@ -671,14 +671,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.1,
-          18.42
+          18.42,
+          -34.1
         ]
       },
       "properties": {
         "name": "Higher Steenberg Peak",
         "slug": "higher-steenberg-peak",
-        "elevation": 537,
+        "elevation": 537.0,
         "tier": 2,
         "region": "Southern Peninsula",
         "summited": false,
@@ -690,14 +690,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.105,
-          18.415
+          18.415,
+          -34.105
         ]
       },
       "properties": {
         "name": "Low Steenberg",
         "slug": "low-steenberg",
-        "elevation": 463,
+        "elevation": 463.0,
         "tier": 3,
         "region": "Southern Peninsula",
         "summited": false,
@@ -709,14 +709,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.205,
-          18.4384
+          18.4384,
+          -34.205
         ]
       },
       "properties": {
         "name": "Simonsberg",
         "slug": "simonsberg",
-        "elevation": 564,
+        "elevation": 564.0,
         "tier": 2,
         "region": "Southern Peninsula",
         "summited": false,
@@ -728,14 +728,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.1123,
-          18.4397
+          18.4397,
+          -34.1123
         ]
       },
       "properties": {
         "name": "Kalkbaaiberg (Kalk Bay Peak)",
         "slug": "kalkbaaiberg-kalk-bay-peak",
-        "elevation": 516,
+        "elevation": 516.0,
         "tier": 2,
         "region": "Southern Peninsula",
         "summited": false,
@@ -747,14 +747,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.1001,
-          18.4593
+          18.4593,
+          -34.1001
         ]
       },
       "properties": {
         "name": "Muizenberg Peak",
         "slug": "muizenberg-peak",
-        "elevation": 507,
+        "elevation": 507.0,
         "tier": 2,
         "region": "Southern Peninsula",
         "summited": false,
@@ -766,14 +766,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.11,
-          18.44
+          18.44,
+          -34.11
         ]
       },
       "properties": {
         "name": "Ridge Peak",
         "slug": "ridge-peak",
-        "elevation": 507,
+        "elevation": 507.0,
         "tier": 3,
         "region": "Southern Peninsula",
         "summited": false,
@@ -785,14 +785,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.115,
-          18.43
+          18.43,
+          -34.115
         ]
       },
       "properties": {
         "name": "North Peak",
         "slug": "north-peak",
-        "elevation": 477,
+        "elevation": 477.0,
         "tier": 3,
         "region": "Southern Peninsula",
         "summited": false,
@@ -804,14 +804,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.12,
-          18.435
+          18.435,
+          -34.12
         ]
       },
       "properties": {
         "name": "Saint James Peak",
         "slug": "saint-james-peak",
-        "elevation": 422,
+        "elevation": 422.0,
         "tier": 2,
         "region": "Southern Peninsula",
         "summited": false,
@@ -823,14 +823,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.15,
-          18.4352
+          18.4352,
+          -34.15
         ]
       },
       "properties": {
         "name": "Elsie's Peak (Else Peak)",
         "slug": "elsies-peak-else-peak",
-        "elevation": 303,
+        "elevation": 303.0,
         "tier": 3,
         "region": "Southern Peninsula",
         "summited": false,
@@ -842,14 +842,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.14,
-          18.44
+          18.44,
+          -34.14
         ]
       },
       "properties": {
         "name": "Platkop",
         "slug": "platkop",
-        "elevation": 371,
+        "elevation": 371.0,
         "tier": 3,
         "region": "Southern Peninsula",
         "summited": false,
@@ -861,14 +861,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.145,
-          18.42
+          18.42,
+          -34.145
         ]
       },
       "properties": {
         "name": "Brakkloofrant",
         "slug": "brakkloofrant",
-        "elevation": 305,
+        "elevation": 305.0,
         "tier": 3,
         "region": "Southern Peninsula",
         "summited": false,
@@ -880,14 +880,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.13,
-          18.41
+          18.41,
+          -34.13
         ]
       },
       "properties": {
         "name": "Bokkop",
         "slug": "bokkop",
-        "elevation": 410,
+        "elevation": 410.0,
         "tier": 3,
         "region": "Southern Peninsula",
         "summited": false,
@@ -899,14 +899,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.16,
-          18.42
+          18.42,
+          -34.16
         ]
       },
       "properties": {
         "name": "Langeberg",
         "slug": "langeberg",
-        "elevation": 320,
+        "elevation": 320.0,
         "tier": 3,
         "region": "Southern Peninsula",
         "summited": false,
@@ -918,14 +918,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.2,
-          18.41
+          18.41,
+          -34.2
         ]
       },
       "properties": {
         "name": "Baboon Hill",
         "slug": "baboon-hill",
-        "elevation": 500,
+        "elevation": 500.0,
         "tier": 3,
         "region": "Southern Peninsula",
         "summited": false,
@@ -937,14 +937,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.2939,
-          18.4635
+          18.4635,
+          -34.2939
         ]
       },
       "properties": {
         "name": "Paulsberg",
         "slug": "paulsberg",
-        "elevation": 369,
+        "elevation": 369.0,
         "tier": 3,
         "region": "Southern Peninsula",
         "summited": false,
@@ -956,14 +956,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.2783,
-          18.4717
+          18.4717,
+          -34.2783
         ]
       },
       "properties": {
         "name": "Judas Peak (319m)",
         "slug": "judas-peak-319",
-        "elevation": 319,
+        "elevation": 319.0,
         "tier": 3,
         "region": "Southern Peninsula",
         "summited": false,
@@ -975,14 +975,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.3263,
-          18.4639
+          18.4639,
+          -34.3263
         ]
       },
       "properties": {
         "name": "Matrooskop",
         "slug": "matrooskop",
-        "elevation": 109,
+        "elevation": 109.0,
         "tier": 3,
         "region": "Southern Peninsula",
         "summited": false,
@@ -994,14 +994,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.29,
-          18.45
+          18.45,
+          -34.29
         ]
       },
       "properties": {
         "name": "Rooihoogte",
         "slug": "rooihoogte",
-        "elevation": 275,
+        "elevation": 275.0,
         "tier": 3,
         "region": "Southern Peninsula",
         "summited": false,
@@ -1013,14 +1013,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.2182,
-          18.3843
+          18.3843,
+          -34.2182
         ]
       },
       "properties": {
         "name": "Bonteberg",
         "slug": "bonteberg",
-        "elevation": 237,
+        "elevation": 237.0,
         "tier": 3,
         "region": "Southern Peninsula",
         "summited": false,
@@ -1032,14 +1032,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.2,
-          18.38
+          18.38,
+          -34.2
         ]
       },
       "properties": {
         "name": "Grootkop (Scarborough)",
         "slug": "grootkop-scarborough",
-        "elevation": 390,
+        "elevation": 390.0,
         "tier": 3,
         "region": "Southern Peninsula",
         "summited": false,
@@ -1051,14 +1051,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.144,
-          18.3752
+          18.3752,
+          -34.144
         ]
       },
       "properties": {
         "name": "Rooikrans",
         "slug": "rooikrans",
-        "elevation": 193,
+        "elevation": 193.0,
         "tier": 3,
         "region": "Southern Peninsula",
         "summited": false,
@@ -1070,14 +1070,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.21,
-          18.4
+          18.4,
+          -34.21
         ]
       },
       "properties": {
         "name": "Baviaan Hill",
         "slug": "baviaan-hill",
-        "elevation": 500,
+        "elevation": 500.0,
         "tier": 3,
         "region": "Southern Peninsula",
         "summited": false,
@@ -1089,14 +1089,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.3533,
-          18.4903
+          18.4903,
+          -34.3533
         ]
       },
       "properties": {
         "name": "Cape Point (High Peak)",
         "slug": "cape-point-high-peak",
-        "elevation": 249,
+        "elevation": 249.0,
         "tier": 1,
         "region": "Cape Point",
         "summited": false,
@@ -1108,14 +1108,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.355,
-          18.49
+          18.49,
+          -34.355
         ]
       },
       "properties": {
         "name": "Cape Point (Low Peak)",
         "slug": "cape-point-low-peak",
-        "elevation": 212,
+        "elevation": 212.0,
         "tier": 2,
         "region": "Cape Point",
         "summited": false,
@@ -1127,14 +1127,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.3568,
-          18.4732
+          18.4732,
+          -34.3568
         ]
       },
       "properties": {
         "name": "Cape of Good Hope",
         "slug": "cape-of-good-hope",
-        "elevation": 87,
+        "elevation": 87.0,
         "tier": 2,
         "region": "Cape Point",
         "summited": false,
