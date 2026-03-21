@@ -30,8 +30,8 @@
 
         // Declare the peaks tileset as a source
         map.addSource('peaks-source', {
-          type: 'vector',
-          url: 'mapbox://valkenmadness.48ecknjn'
+          type: 'geojson',
+          data: 'peaks.geojson'
         });
 
         // Load T1 icon
@@ -43,7 +43,6 @@
             id: 'peaks-t1',
             type: 'symbol',
             source: 'peaks-source',
-            'source-layer': 'Peaks-cc2cso',
             minzoom: 11,
             maxzoom: 14,
             layout: {
@@ -63,7 +62,6 @@
             id: 'peaks-t2',
             type: 'symbol',
             source: 'peaks-source',
-            'source-layer': 'Peaks-cc2cso',
             minzoom: 14,
             maxzoom: 22,
             layout: {
