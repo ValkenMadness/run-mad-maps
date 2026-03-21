@@ -2,7 +2,8 @@
   "version": 2,
   "builds": [
     { "src": "index.html", "use": "@vercel/static" },
-    { "src": "*.png",      "use": "@vercel/static" },
+    { "src": "*.png", "use": "@vercel/static" },
+    { "src": "*.geojson", "use": "@vercel/static" },
     { "src": "api/config.js", "use": "@vercel/node" }
   ],
   "routes": [
