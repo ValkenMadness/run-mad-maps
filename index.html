@@ -19,7 +19,7 @@
       const { token } = await res.json();
       mapboxgl.accessToken = token;
 
-      window.map = new mapboxgl.Map({
+      const map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/valkenmadness/cmlwtt4pu000901sdfihve44x',
         center: [18.4241, -33.9249],
@@ -27,13 +27,6 @@
       });
 
       map.on('load', () => {
-
-        map.on('click', (e) => {
-          const features = map.queryRenderedFeatures(e.point, { layers: ['peaks-t1', 'peaks-t2'] });
-          if (features.length > 0) {
-            console.log('PEAK PROPERTIES:', JSON.stringify(features[0].properties, null, 2));
-          }
-        });
 
         // Declare the peaks tileset as a source
         map.addSource('peaks-source', {
