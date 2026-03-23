@@ -28,6 +28,91 @@
 
       map.on('load', () => {
 
+        // ── ROUTE LINE THICKNESS — smooth interpolation overrides ──────────────
+
+        // Trails — thinnest
+        map.setPaintProperty('trails-cmeji3', 'line-width', [
+          'interpolate', ['linear'], ['zoom'],
+          8,  0.3,
+          10, 0.6,
+          12, 1.0,
+          14, 1.8,
+          16, 2.5,
+          18, 3.5
+        ]);
+        map.setPaintProperty('trails-cmeji3', 'line-opacity', [
+          'interpolate', ['linear'], ['zoom'],
+          7, 0,
+          8, 0.7,
+          22, 1
+        ]);
+        map.setLayoutProperty('trails-cmeji3', 'visibility', 'visible');
+        map.setLayerZoomRange('trails-cmeji3', 0, 24);
+
+        // Jeep tracks — slightly thicker than trails
+        map.setPaintProperty('jeep-track-94s6oa', 'line-width', [
+          'interpolate', ['linear'], ['zoom'],
+          8,  0.5,
+          10, 1.0,
+          12, 1.8,
+          14, 2.8,
+          16, 4.0,
+          18, 5.5
+        ]);
+        map.setPaintProperty('jeep-track-94s6oa', 'line-opacity', [
+          'interpolate', ['linear'], ['zoom'],
+          7, 0,
+          8, 0.7,
+          22, 1
+        ]);
+        map.setLayoutProperty('jeep-track-94s6oa', 'visibility', 'visible');
+        map.setLayerZoomRange('jeep-track-94s6oa', 0, 24);
+
+        // Roadways — medium
+        map.setPaintProperty('roadways-dp2ith', 'line-width', [
+          'interpolate', ['linear'], ['zoom'],
+          8,  0.8,
+          10, 1.5,
+          12, 2.5,
+          14, 4.0,
+          16, 6.0,
+          18, 8.0
+        ]);
+        map.setPaintProperty('roadways-dp2ith', 'line-opacity', [
+          'interpolate', ['linear'], ['zoom'],
+          6, 0,
+          7, 0.8,
+          22, 1
+        ]);
+        map.setLayoutProperty('roadways-dp2ith', 'visibility', 'visible');
+        map.setLayerZoomRange('roadways-dp2ith', 0, 24);
+
+        // Main roads / highways — thickest
+        map.setPaintProperty('main-roads-3mdepl', 'line-width', [
+          'interpolate', ['linear'], ['zoom'],
+          6,  1.0,
+          8,  1.8,
+          10, 3.0,
+          12, 5.0,
+          14, 7.0,
+          16, 10.0,
+          18, 14.0
+        ]);
+        map.setPaintProperty('main-roads-3mdepl', 'line-opacity', [
+          'interpolate', ['linear'], ['zoom'],
+          5, 0,
+          6, 0.8,
+          22, 1
+        ]);
+        map.setLayoutProperty('main-roads-3mdepl', 'visibility', 'visible');
+        map.setLayerZoomRange('main-roads-3mdepl', 0, 24);
+
+        // Hide old circle peak layer — replaced by GeoJSON markers
+        map.setLayoutProperty('peaks-cc2cso', 'visibility', 'none');
+
+        // ── T5 DEEP ZOOM STATE — revert to small generic icon at zoom 18+ ───────
+        // (added after T1/T2 layers load — see peak marker section below)
+
         // Declare the peaks tileset as a source
         map.addSource('peaks-source', {
           type: 'geojson',
@@ -43,12 +128,25 @@
             id: 'peaks-t1',
             type: 'symbol',
             source: 'peaks-source',
-            minzoom: 11,
-            maxzoom: 14,
+            minzoom: 10,
+            maxzoom: 12,
             layout: {
               'icon-image': 'peak-t1',
               'icon-size': 0.25,
               'icon-allow-overlap': false
+            }
+          });
+
+          // T5 — deep zoom state (zoom 18+), reuses T1 asset at smaller scale
+          map.addLayer({
+            id: 'peaks-t5',
+            type: 'symbol',
+            source: 'peaks-source',
+            minzoom: 18,
+            layout: {
+              'icon-image': 'peak-t1',
+              'icon-size': 0.15,
+              'icon-allow-overlap': true
             }
           });
         });
@@ -62,8 +160,8 @@
             id: 'peaks-t2',
             type: 'symbol',
             source: 'peaks-source',
-            minzoom: 14,
-            maxzoom: 22,
+            minzoom: 12,
+            maxzoom: 14,
             layout: {
               'icon-image': 'peak-t2',
               'icon-size': 0.18,
