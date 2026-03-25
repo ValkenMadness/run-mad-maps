@@ -19,7 +19,7 @@
       const { token } = await res.json();
       mapboxgl.accessToken = token;
 
-      window.map = new mapboxgl.Map({
+      const map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/valkenmadness/cmlwtt4pu000901sdfihve44x',
         center: [18.4241, -33.9249],
